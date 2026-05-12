@@ -1,4 +1,4 @@
-export default function Exemplo1( {peso, altura})
+export default function Exercicio2( {peso, altura})
 {
     let imc = Number(peso) / Number(altura *altura)
  
