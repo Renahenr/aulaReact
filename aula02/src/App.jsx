@@ -2,8 +2,9 @@ import "./App.css";
 import Exemplo1 from "./Exemplo1";
 import Exercicio1 from "./exercicio1";
 import Exercicio2 from "./exercicio2";
-
 import Exercicio3 from "./exercicio3";
+import Exercicio4 from "./exercicio4";
+
 export default function App()
 {
   return(
@@ -36,8 +37,12 @@ export default function App()
  
                       <Exercicio3 nota1="7.5" nota2="9.5" />
                        <Exercicio3 nota1="3" nota2="6.5" />
-</div>
+              </div>
+              <div className="card">
+                    <h3>Exercício 4</h3>
 
+                          <Exercicio4 tipo="triangulo" base={10} altura={5} />
+                        </div>
 
     </div>
 

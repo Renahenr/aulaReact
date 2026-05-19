@@ -9,5 +9,5 @@ export default function Exercicio3({ nota1, nota2 })
     <div>
       A média da nota é {media} e a situação é {situacao}.
     </div>
-  )
+  );
 }
