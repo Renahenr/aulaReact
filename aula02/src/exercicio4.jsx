@@ -1,4 +1,4 @@
-function Exercicio4({ tipo, base, altura }) {
+ export default function Exercicio4({ tipo, base, altura }) {
     let area = 0;
   
     if (tipo === 'triangulo') {
@@ -11,9 +11,9 @@ function Exercicio4({ tipo, base, altura }) {
   
     return (
       <div>
-        <h1>
+        
           A área do {tipo} com base {base} e altura {altura} é {area}.
-        </h1>
+       
       </div>
     );
   }
