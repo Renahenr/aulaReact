@@ -7,6 +7,8 @@ import Exercicio4 from "./exercicio4";
 import Exercicio5 from "./exercicio5";
 import Exercicio6 from "./exercicio6";
 import Exercicio7 from "./exercicio7";
+import Exercicio9 from "./Exercicio9";
+import Exercicio10 from "./Exercicio10";
 export default function App()
 {
   return(
@@ -77,10 +79,23 @@ export default function App()
                  <h3>Exercício 7</h3>
 
                   <Exercicio7 celsius={30} />
-                  
-</div>
+              
+                   </div>
 
-                       
+                   <div className="card">
+                    <h3>Exercicio 9</h3>
+                    
+                        <Exercicio9 vendas={15000} salario={2500} />
+                      
+                
+                   </div>
+
+                  <div className="card">
+                 <h3>Exercicio 10</h3>
+                     
+                     <Exercicio10 salario={1500}/>
+
+                  </div>
 
     </div>
 
