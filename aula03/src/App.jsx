@@ -18,8 +18,6 @@ export default function App()
         <Route path="/estados/rj" element={<RioJaneiro />} />
         <Route path="/estados/es" element={<EspiritoSanto />} />
 
-
-
        </Routes>
      </BrowserRouter>
   );
