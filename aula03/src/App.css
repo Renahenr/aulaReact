@@ -1,19 +1,25 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(209, 174, 255);
+    background-color: rgb(193, 153, 246);
+
+
+   
 }
 h1{
     background-color: aliceblue;
-    color: #9553c7;
+    color: #ae53c7;
     text-align: center;
-    padding: 20px;
-    margin: 0%;
+    padding: 18px;
+    margin: 2%;
     margin-bottom: 20px;
+    border-radius: 90px;
+    border: 4px dotted #c767e7;
 }
 li{
-    color: #bc7ecc;
+    color: #a97ecc;
     font-size: 18px;
+    
 
 }
 
@@ -25,7 +31,10 @@ li{
     background-color: aliceblue;
     border-radius: 12px;
     box-shadow: 0 10px 10px rgb(98, 18, 129);
+    border: 4px dotted #c767e7;
 }
+
+
 h3{
     color: #9553c7;
     font-size: 25px;

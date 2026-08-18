@@ -5,9 +5,11 @@ import SaoPaulo from "./paginas/SaoPaulo";
 import MinasGerais from "./paginas/MinasGerais";
 import RioJaneiro from "./paginas/RioJaneiro";
 import EspiritoSanto from "./paginas/EspiritoSanto";
+
 import SantaCatarina from "./paginas/SantaCatarina";
 import Parana from "./paginas/Parana";
 import RioGrandeSul from "./paginas/RioGrandeSul";
+
 import Goias from "./paginas/Goias";
 import MatoGrosso from "./paginas/MatoGrosso";
 import MatoGrossoSul from "./paginas/MataGrossoSul";
@@ -16,6 +18,20 @@ import Acre from "./paginas/Acre";
 import Amapa from "./paginas/Amapa";
 import Amazonas from "./paginas/Amazonas";
 import Para from "./paginas/Para";
+import Rondonia from "./paginas/Rondonia";
+import Roraima from "./paginas/roraima";
+import Tocantins from "./paginas/Tocantins";
+
+import Alagoas from "./paginas/alagoas";
+import Bahia from "./paginas/Bahia";
+import Ceara from "./paginas/Ceara";
+import Maranhao from "./paginas/Maranhao";
+import Paraiba from "./paginas/Paraiba";
+import Pernambuco from "./paginas/Pernambuco";
+import Piaui from "./paginas/Piaui";
+import RioGrandeNorte from "./paginas/RioGrandeNorte";
+import Sergipe from "./paginas/Sergipe";
+
 
 export default function App()
 {
@@ -42,13 +58,19 @@ export default function App()
         <Route path="/estados/ap" element={<Amapa />} />
         <Route path="/estados/am" element={<Amazonas />} />
         <Route path="/estados/pa" element={<Para />} />
+        <Route path="/estados/ro" element={<Rondonia />} />
+        <Route path="/estados/rr" element={<Roraima />} />
+        <Route path="/estados/to" element={<Tocantins />} />
 
-
-  
-
-        
-
-
+        <Route path="/estados/al" element={<Alagoas />} />
+        <Route path="/estados/ba" element={<Bahia />} />
+        <Route path="/estados/ce" element={<Ceara />} />
+        <Route path="/estados/ma" element={<Maranhao />} />
+        <Route path="/estados/pb" element={<Paraiba />} />
+        <Route path="/estados/pe" element={<Pernambuco />} />
+        <Route path="/estados/pi" element={<Piaui />} />
+        <Route path="/estados/rn" element={<RioGrandeNorte />} />
+        <Route path="/estados/se" element={<Sergipe />} />
         
        </Routes>
      </BrowserRouter>
