@@ -5,7 +5,7 @@ export default function Home()
 {
     return (
         <div>
-            <h1>Aula 04 - Estudo de Variáveis de Estado</h1>
+            <h1> ㋡ Aula 04 - Estudo de Variáveis de Estado ㋛ </h1>
 
             <div className="conteudo">
 

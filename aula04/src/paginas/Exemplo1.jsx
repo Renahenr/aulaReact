@@ -32,7 +32,7 @@ export default function Exemplo1()
     return (
         <div>
 
-            <h1>Exemplo 1</h1>
+            <h1> ❥ Exemplo 1</h1>
 
             <div className="conteudo">
 
@@ -49,9 +49,9 @@ export default function Exemplo1()
                   </p>
 
                   <p>
-                    <input type="button" value="Calcular" onClick={calcular} />
+                    <input type="button" value="☂Calcular" onClick={calcular} />
 
-                    <input type="button" value="Processar" onClick={processar} />
+                    <input type="button" value="♬Processar" onClick={processar} />
                   </p>
 
 
@@ -70,7 +70,7 @@ export default function Exemplo1()
                </p>
 
                 <p>
-                    <Link to="/">Voltar</Link>
+                    <Link to="/"> ⟲ Voltar</Link>
                 </p>
 
             </div>
