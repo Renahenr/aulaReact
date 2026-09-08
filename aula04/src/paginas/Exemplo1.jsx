@@ -58,11 +58,11 @@ export default function Exemplo1()
                 </form>
 
                <p>
-                  Nome do Aluno: {nome} <br />
-                  Idade: {idade}
+               ⋆˚࿔ Nome do Aluno: {nome} <br />
+                  𓀤 Idade: {idade}
 
                   <br />
-                  Dias Vividos:{dias}
+                  ㅤᵕ̈  Dias Vividos:{dias}
                </p>
 
                <p>
@@ -70,7 +70,7 @@ export default function Exemplo1()
                </p>
 
                 <p>
-                    <Link to="/"> ⟲ Voltar</Link>
+                    <Link to="/"> ⟲ Voltar ⋆☀︎.</Link>
                 </p>
 
             </div>

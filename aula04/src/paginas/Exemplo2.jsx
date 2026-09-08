@@ -59,7 +59,7 @@ export default function Exemplo2()
 
                        <p>
                           <input type="button"
-                          value="Calcular"
+                          value=" ✈ Calcular"
                           onClick={calcular} />
                        </p>
 
@@ -71,7 +71,7 @@ export default function Exemplo2()
                    </form>
 
                 <p>
-                    <Link to="/"> ⟲ Voltar</Link>
+                    <Link to="/"> ⟲ Voltar ⋆☀︎.</Link>
                 </p>
 
             </div>
